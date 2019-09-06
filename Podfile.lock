@@ -1,0 +1,116 @@
+PODS:
+  - Charts (3.2.0):
+    - Charts/Core (= 3.2.0)
+  - Charts/Core (3.2.0)
+  - Crashlytics (3.10.9):
+    - Fabric (~> 1.7.13)
+  - Fabric (1.7.13)
+  - Firebase/Core (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.9.0):
+    - FirebaseCore (= 5.1.4)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - GoogleUtilities/NSData+zlib (~> 5.2)
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.4):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - GoogleAPIClientForREST/Calendar (1.3.6):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Core (1.3.6):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - GoogleUtilities/NSData+zlib (~> 5.2)
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.2.0):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.4)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/NSData+zlib
+    - GoogleUtilities/Reachability
+  - GoogleUtilities/NSData+zlib (5.3.0)
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.0):
+    - GoogleUtilities/Logger
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - IQKeyboardManagerSwift (6.1.1)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ProgressHUD (2.60)
+
+DEPENDENCIES:
+  - Charts
+  - Crashlytics
+  - Fabric
+  - Firebase/Core
+  - GoogleAPIClientForREST/Calendar
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - ProgressHUD
+
+SPEC CHECKSUMS:
+  Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
+  Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
+  Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
+  Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseCore: 2a84b6b325792a4319ef71ee18819dcba08d2fd7
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  GoogleAPIClientForREST: 5b95b38a0fa912e8ac7bdcf9e124578ef1a61bf2
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleSignIn: 591e46382014e591269f862ba6e7bc0fbd793532
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+
+PODFILE CHECKSUM: b1776f0b7d20e80db1e4a70cea3d7729d02b9a70
+
+COCOAPODS: 1.4.0
